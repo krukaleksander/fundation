@@ -6,4 +6,28 @@
           box-sizing: border-box;
   font-family: "IBM Plex Sans", sans-serif;
 }
+
+html {
+  font-size: 10px;
+}
+
+.topBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.topBar__image {
+  max-width: 50px;
+}
+
+.topBar__title {
+  font-size: 3rem;
+}
 /*# sourceMappingURL=index.min.css.map */
