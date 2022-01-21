@@ -1,0 +1,12 @@
+.news {
+  margin-top: 20px;
+  padding: 10px;
+  &__title {
+    color: $gray;
+    font-size: 3rem;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+  }
+}

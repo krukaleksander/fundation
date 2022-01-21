@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +12,11 @@ html {
   font-size: 10px;
 }
 
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .topBar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,13 +27,112 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-bottom: 1px solid #ddd;
 }
 
 .topBar__image {
   max-width: 50px;
+  margin-right: 10px;
 }
 
 .topBar__title {
   font-size: 3rem;
+}
+
+.topBar__title span {
+  font-family: "Paytone One", sans-serif;
+}
+
+.topBar__title span:nth-child(2) {
+  color: #68b404;
+}
+
+.counter {
+  padding: 20px;
+}
+
+.counter__image {
+  display: block;
+  max-width: 250px;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.counter__title {
+  font-family: "Paytone One", sans-serif;
+  font-size: 4rem;
+  color: #68b404;
+  text-align: center;
+}
+
+.counter__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.counter__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 200px;
+  width: 230px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+  padding: 18px;
+}
+
+.counter__card img {
+  max-width: 150px;
+}
+
+.counter__card .image-party,
+.counter__card .image-heart {
+  max-width: 50px;
+}
+
+.counter__card .big-number-green {
+  font-size: 3rem;
+  color: #68b404;
+  line-height: 150%;
+}
+
+.counter__card h1 {
+  text-align: center;
+  margin-right: 10px;
+  font-size: 1.8rem;
+}
+
+.news {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.news__title {
+  color: #333;
+  font-size: 3rem;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
 }
 /*# sourceMappingURL=index.min.css.map */

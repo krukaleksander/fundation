@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;500;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -9,8 +9,14 @@
 html {
   font-size: 10px;
 }
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
 $black: #000;
 $green: #68b404;
+$gray: #333;
+$title-font: "Paytone One", sans-serif;
 
 @mixin flex {
   display: flex;

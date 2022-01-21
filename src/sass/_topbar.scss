@@ -1,9 +1,17 @@
 .topBar {
   @include flex;
+  border-bottom: 1px solid #ddd;
   &__image {
     max-width: 50px;
+    margin-right: 10px;
   }
   &__title {
     font-size: 3rem;
+    span {
+      font-family: $title-font;
+      &:nth-child(2) {
+        color: $green;
+      }
+    }
   }
 }
